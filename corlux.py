@@ -1,3 +1,4 @@
+#Lursy
 #Bibliotecas
 import os
 from time import sleep
@@ -31,7 +32,7 @@ print(f'{L}')
 cor = input(f'{Op}')
 
 if cor == 'Vermelho' or cor == 'vermelho':
- os.chdir('/data/data/com.termux/files/home/corlux/Bash/')
+ os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
  os.system('cp Vermelho /data/data/com.termux/files/usr/etc/')
  os.chdir('/data/data/com.termux/files/usr/etc/')
  os.system('rm -rf bash.bashrc')
@@ -39,7 +40,7 @@ if cor == 'Vermelho' or cor == 'vermelho':
  print(f'{Vd}Pronto! \n\n')
  print('Para salvar use o comando "exit" e volte ao terminal.')
 elif cor == 'Verde' or cor == 'verde':
- os.chdir('/data/data/com.termux/files/home/corlux/Bash/')
+ os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
  os.system('cp Verde /data/data/com.termux/files/usr/etc/')
  os.chdir('/data/data/com.termux/files/usr/etc/')
  os.system('rm -rf bash.bashrc')
@@ -47,7 +48,7 @@ elif cor == 'Verde' or cor == 'verde':
  print(f'{Vd}Pronto! \n\n')
  print('Para salvar use o comando "exit" e volte ao terminal.')
 elif cor == 'Amarelo' or cor == 'amarelo':
- os.chdir('/data/data/com.termux/files/home/corlux/Bash/')
+ os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
  os.system('cp Amarelo /data/data/com.termux/files/usr/etc/')
  os.chdir('/data/data/com.termux/files/usr/etc/')
  os.system('rm -rf bash.bashrc')
@@ -55,7 +56,7 @@ elif cor == 'Amarelo' or cor == 'amarelo':
  print(f'\n{Vd}Pronto! \n\n')
  print('Para salvar use o comando "exit" e volte ao terminal.')
 elif cor == 'Azul' or cor == 'azul':
- os.chdir('/data/data/com.termux/files/home/corlux/Bash/')
+ os.chdir('/data/data/com.termux/files/home/Corlux/Bash/')
  os.system('cp Azul /data/data/com.termux/files/usr/etc/')
  os.chdir('/data/data/com.termux/files/usr/etc/')
  os.system('rm -rf bash.bashrc')
