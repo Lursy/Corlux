@@ -1,6 +1,4 @@
-#Lursy
-#Bibliotecas
-import os
+#BY_Lursy>:)
 from time import sleep
 
 #Cores
